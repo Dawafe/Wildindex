@@ -91,6 +91,10 @@ section .portraits p {
   text-align: right;
   text-shadow: -1px 1px 0px rgba(242, 242, 242, 1), 1px 1px 0px rgba(242, 242, 242, 1), 1px -1px 0px rgba(242, 242, 242, 1), -1px -1px 0px rgba(242, 242, 242, 1);
 }
+.portraits a {
+  color: rgba(176, 53, 24, 0.87);
+  text-decoration: none;
+}
 section .weddings {
   background-image: url("images/weddings1.jpeg");
   background-repeat: no-repeat;
