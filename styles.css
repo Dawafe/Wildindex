@@ -1,0 +1,354 @@
+body {
+  background: rgba(247, 247, 247, 1);
+
+  margin: 4px;
+  padding: 10px;
+}
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+header {
+  border-style: none;
+  background-size: auto;
+  display: inline;
+  height: 150px;
+  margin: 5px;
+  width: 75%;
+}
+header .compname a {
+  background-color: rgba(247, 247, 247, 1);
+  color: rgba(180, 180, 180, 1);
+  display: block;
+  float: inherit;
+  font-family: Helvetica Neue;
+  font-weight: 100;
+  font-size: 60px;
+  margin: 0px;
+  padding-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: auto;
+}
+header ul.biocontact {
+  background-color: rgba(247, 247, 247, 1);
+  margin-top: 0;
+  margin-bottom: 1%;
+  text-align: center;
+}
+header .biocontact li {
+  list-style: none;
+  display: inline-flex;
+  padding: 10px;
+}
+header .biocontact a {
+  background-color: rgba(247, 247, 247, 1);
+  color: rgba(180, 180, 180, 1);
+  float: inherit;
+  font-family: Helvetica Neue;
+  font-size: 18px;
+  font-weight: 200;
+  text-decoration: none;
+  text-align: center;
+}
+section .tagline {
+  color: rgba(150, 150, 150, 1);
+  display: block;
+  font-family: Helvetica Neue;
+  font-size: 27px;
+  font-weight: 100;
+  margin: 5px;
+  margin-top: 8.9%;
+  text-align: center;
+  text-decoration: overline;
+  width: auto;
+}
+
+/* INCREASE IMAGE WIDTH FOR LARGER IMAGES, LOOKS LIKE CRAP OVER 2000PX */
+/* HOME PAGE */
+section .package-types div {
+  display: flex;
+  margin: 5px;
+  width: auto;
+  position: relative;
+  text-align: left;
+}
+section .portraits {
+  background-image: url("images/portraits1.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1100px;
+  height: 500px;
+  margin: auto;
+}
+section .portraits p {
+  color: rgba(176, 53, 24, 0.87);
+  font-family: Verdana;
+  font-size: 110px;
+  margin-right: 30px;
+  margin-top: 10px;
+  text-align: right;
+  text-shadow: -1px 1px 0px rgba(242, 242, 242, 1), 1px 1px 0px rgba(242, 242, 242, 1), 1px -1px 0px rgba(242, 242, 242, 1), -1px -1px 0px rgba(242, 242, 242, 1);
+}
+section .weddings {
+  background-image: url("images/weddings1.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1100px;
+  height: 500px;
+  margin: auto;
+}
+section .weddings p {
+  font-family: Verdana;
+  color: rgba(74, 67, 29, 0.7);
+  text-align: right;
+  font-size: 105px;
+  margin: 10px;
+  text-shadow: -1px 1px 0px rgba(242, 242, 242, 1), 1px 1px 0px rgba(242, 242, 242, 1), 1px -1px 0px rgba(242, 242, 242, 1), -1px -1px 0px rgba(242, 242, 242, 1);
+}
+section .newborns {
+  background-image: url("images/newborns1.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1100px;
+  height: 500px;
+  margin: auto;
+}
+section .newborns p {
+  font-family: Verdana;
+  color: rgba(123, 122, 120, 0.6);
+  text-align: right;
+  font-size: 100px;
+  margin: 10px;
+  text-shadow: -1px 1px 0px rgba(242, 242, 242, 1), 1px 1px 0px rgba(242, 242, 242, 1), 1px -1px 0px rgba(242, 242, 242, 1), -1px -1px 0px rgba(242, 242, 242, 1);
+}
+.contact-info {
+  margin-top: 10%;
+}
+footer {
+  border-radius: 3px;
+  background-color: rgba(70, 70, 70, 1);
+  margin: auto;
+  margin-top: 10px;
+  padding: 20px;
+  height: 20px;
+  width: 50%;
+  text-align: center;
+  position: relative;
+}
+footer .footer {
+  background-size: 200%;
+  display: inline;
+  width: 500px;
+}
+footer .footer a {
+  color: rgba(200, 200, 200, 1);
+  font-family: Helvetica Neue;
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+}
+
+/* BIO PAGE */
+#story {
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  font-family: Helvetica Neue;
+  font-weight: 200;
+  margin: auto;
+  margin-top: 20px;
+  padding: 2%;
+  position: relative;
+  text-align: center;
+  width: 70%;
+}
+#floated {
+  background-image: url("images/image12.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: right;
+  height: 150px;
+  width: 350px;
+  margin-left: 10px;
+  margin-bottom: 7px;
+}
+
+/* SMALL SCREENS, TABLETS, ETC. */
+
+@media screen and (max-width: 1199px) {
+  header .compname a {
+    font-size: 30px;
+    color: rgba(160, 160, 160, 1);
+    padding-top: 10px;
+  }
+  section .tagline {
+    font-size: 15px;
+  }
+  section .portraits {
+    background-image: url("images/portraits1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+  }
+  section .portraits p {
+    color: rgba(176, 53, 24, 0.87);
+    font-family: Verdana;
+    font-size: 300%;
+    margin-top: 10px;
+    text-align: right;
+    text-shadow: -1px 1px 0px rgba(242, 242, 242, 1), 1px 1px 0px rgba(242, 242, 242, 1), 1px -1px 0px rgba(242, 242, 242, 1), -1px -1px 0px rgba(242, 242, 242, 1);
+  }
+  section .weddings {
+    background-image: url("images/weddings1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+  }
+  section .weddings p {
+    font-family: Verdana;
+    color: rgba(74, 67, 29, 0.7);
+    text-align: right;
+    font-size: 300%;
+    margin: 10px;
+    text-shadow: -1px 1px 0px rgba(242, 242, 242, 1), 1px 1px 0px rgba(242, 242, 242, 1), 1px -1px 0px rgba(242, 242, 242, 1), -1px -1px 0px rgba(242, 242, 242, 1);
+  }
+  section .newborns {
+    background-image: url("images/newborns1.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+  }
+  section .newborns p {
+    font-family: Verdana;
+    color: rgba(123, 122, 120, 0.6);
+    text-align: right;
+    font-size: 300%;
+    margin: 10px;
+    text-shadow: -1px 1px 0px rgba(242, 242, 242, 1), 1px 1px 0px rgba(242, 242, 242, 1), 1px -1px 0px rgba(242, 242, 242, 1), -1px -1px 0px rgba(242, 242, 242, 1);
+  }
+}
+
+/* SMART PHONES, SPLIT SCREENS, ETC. */
+
+@media screen and (max-width: 670px) {
+  body {
+    padding: 5px;
+  }
+  header .compname a {
+    font-size: 20px;
+    color: rgba(120, 120, 120, 1);
+    padding-bottom: 6px;
+  }
+  header .biocontact a {
+    color: rgba(160, 160, 160, 1);
+    font-size: 15px;
+    padding-top: 10px;
+  }
+  header .biocontact li {
+    color: rgba(120, 120, 120, 1);
+    list-style: none;
+    display: block;
+    padding-right: 10%;
+    margin: 0px;
+  }
+  section .tagline {
+    font-size: 25%;
+    font-weight: 200;
+    color: rgba(100, 100, 100, 1);
+    text-decoration: none;
+    margin-top: 100px;
+  }
+  section .portraits {
+    background-image: url("images/portraits1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200%;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+  }
+  section .portraits p {
+    color: rgba(176, 53, 24, 0.87);
+    font-family: Verdana;
+    font-size: 300%;
+    margin-top: 10px;
+    text-align: right;
+    text-shadow: -1px 1px 0px rgba(242, 242, 242, 1), 1px 1px 0px rgba(242, 242, 242, 1), 1px -1px 0px rgba(242, 242, 242, 1), -1px -1px 0px rgba(242, 242, 242, 1);
+  }
+  section .weddings {
+    background-image: url("images/weddings1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200%;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+  }
+  section .weddings p {
+    font-family: Verdana;
+    color: rgba(74, 67, 29, 0.7);
+    text-align: right;
+    font-size: 300%;
+    margin: 10px;
+    text-shadow: -1px 1px 0px rgba(242, 242, 242, 1), 1px 1px 0px rgba(242, 242, 242, 1), 1px -1px 0px rgba(242, 242, 242, 1), -1px -1px 0px rgba(242, 242, 242, 1);
+  }
+  section .newborns {
+    background-image: url("images/newborns1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200%;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+  }
+  section .newborns p {
+    font-family: Verdana;
+    color: rgba(123, 122, 120, 0.6);
+    text-align: right;
+    font-size: 300%;
+    margin: 10px;
+    text-shadow: -1px 1px 0px rgba(242, 242, 242, 1), 1px 1px 0px rgba(242, 242, 242, 1), 1px -1px 0px rgba(242, 242, 242, 1), -1px -1px 0px rgba(242, 242, 242, 1);
+  }
+  #floated {
+    background-image: url("images/image12.jpeg");
+    background-size: 375%;
+    background-repeat: no-repeat;
+    background-position: right;
+    float: right;
+    height: 200px;
+    width: 120px;
+    margin-right: 2px;
+    margin-bottom: 7px;
+  }
+  footer {
+    padding: 8px;
+  }
+  footer .footer a {
+    font-size: 10px;
+  }
+@media screen and (max-width: 400px) {
+  section .tagline {
+    font-size: 7px;
+    font-weight: 200;
+  }
+  header .biocontact li {
+    padding-right: 15%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
