@@ -111,6 +111,10 @@ section .weddings p {
   margin: 10px;
   text-shadow: -1px 1px 0px rgba(242, 242, 242, 1), 1px 1px 0px rgba(242, 242, 242, 1), 1px -1px 0px rgba(242, 242, 242, 1), -1px -1px 0px rgba(242, 242, 242, 1);
 }
+.weddings a {
+  color: rgba(74, 67, 29, 0.7);
+  text-decoration: none;
+}
 section .newborns {
   background-image: url("images/newborns1.jpeg");
   background-size: 100%;
@@ -127,6 +131,10 @@ section .newborns p {
   font-size: 100px;
   margin: 10px;
   text-shadow: -1px 1px 0px rgba(242, 242, 242, 1), 1px 1px 0px rgba(242, 242, 242, 1), 1px -1px 0px rgba(242, 242, 242, 1), -1px -1px 0px rgba(242, 242, 242, 1);
+}
+.newborns a {
+  color: rgba(123, 122, 120, 0.6);
+  text-decoration: none;
 }
 .contact-info {
   margin-top: 10%;
