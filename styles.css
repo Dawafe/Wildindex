@@ -1,7 +1,8 @@
 body {
   background: rgba(247, 247, 247, 1);
-  margin: 4px;
-  padding: 10px;
+  margin: 0 0 0 0;
+  padding: 10px 10px 10px 10px;
+  width: auto;
 }
 .navbar {
   overflow: hidden;
@@ -14,7 +15,7 @@ header {
   background-size: auto;
   display: inline;
   height: 150px;
-  margin: 5px;
+  padding: 5px 5px 5px 5px;
   width: 75%;
 }
 header .compname a {
@@ -25,7 +26,6 @@ header .compname a {
   font-family: Helvetica Neue;
   font-weight: 100;
   font-size: 60px;
-  margin: 0px;
   padding-top: 10px;
   text-align: center;
   text-decoration: none;
@@ -33,14 +33,21 @@ header .compname a {
 }
 header ul.biocontact {
   background-color: rgba(247, 247, 247, 1);
-  margin-top: 0;
-  margin-bottom: 1%;
+  margin: 0% 0% 1% 0%;
   text-align: center;
 }
 header .biocontact li {
+  background-color: rgba(247, 247, 247, 1);
+  color: rgba(180, 180, 180, 1);
+  display: inline-block;
+  float: inherit;
+  font-family: Helvetica Neue;
+  font-size: 18px;
+  font-weight: 200;
   list-style: none;
-  display: inline-flex;
-  padding: 10px;
+  padding: 2%;
+  text-decoration: none;
+  text-align: center;
 }
 header .biocontact a {
   background-color: rgba(247, 247, 247, 1);
@@ -59,7 +66,7 @@ section .tagline {
   font-size: 27px;
   font-weight: 100;
   margin: 5px;
-  margin-top: 8.9%;
+  margin-top: 12%;
   text-align: center;
   text-decoration: overline;
   width: auto;
@@ -169,12 +176,13 @@ footer .footer a {
   border-style: solid;
   border-width: 1px;
   border-color: black;
+  display: inherit;
   font-family: Helvetica Neue;
   font-weight: 200;
   margin: auto;
   margin-top: 20px;
   padding: 2%;
-  position: relative;
+  position: static;
   text-align: center;
   width: 70%;
 }
@@ -188,7 +196,21 @@ footer .footer a {
   margin-left: 10px;
   margin-bottom: 7px;
 }
-
+#test {
+border-radius: 3px;
+border-style: solid;
+border-width: 1px;
+border-color: black;
+display: block;
+font-family: Helvetica Neue;
+font-weight: 200;
+margin: auto;
+margin-top: 20px;
+padding: 2%;
+position: static;
+text-align: center;
+width: 70%;
+}
 /* SMALL SCREENS, TABLETS, ETC. */
 
 @media screen and (max-width: 1199px) {
@@ -282,7 +304,7 @@ footer .footer a {
     font-weight: 200;
     color: rgba(100, 100, 100, 1);
     text-decoration: none;
-    margin-top: 100px;
+    margin-top: 27%;
   }
   section .portraits {
     background-image: url("images/portraits1.jpeg");
