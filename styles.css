@@ -59,6 +59,15 @@ header .biocontact a {
   text-decoration: none;
   text-align: center;
 }
+button {
+  border: none;
+}
+#dropmenu a {
+  display: block;
+}
+#droplink {
+  display: none;
+}
 section .tagline {
   color: rgba(150, 150, 150, 1);
   display: block;
