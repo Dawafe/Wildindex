@@ -48,7 +48,7 @@ header .biocontact li {
   text-decoration: none;
   text-align: center;
 }
-header .biocontact a {
+header .biocontact a{
   background-color: rgba(247, 247, 247, 1);
   color: rgba(180, 180, 180, 1);
   float: inherit;
