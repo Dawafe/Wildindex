@@ -26,14 +26,15 @@ header .compname a {
   font-family: Helvetica Neue;
   font-weight: 100;
   font-size: 60px;
-  padding-top: 10px;
+  padding: 2% 0% 0% 0%;
   text-align: center;
   text-decoration: none;
   width: auto;
 }
 header ul.biocontact {
   background-color: rgba(247, 247, 247, 1);
-  margin: 0% 0% 1% 0%;
+  margin-top: -1%;
+  padding: 4% 2% 2% 0%;
   text-align: center;
 }
 header .biocontact li {
@@ -45,10 +46,12 @@ header .biocontact li {
   font-size: 18px;
   font-weight: 200;
   list-style: none;
+  margin-left: -2%;
   text-decoration: none;
   text-align: center;
+  width: 20%;
 }
-header .biocontact a {
+header .biocontact a{
   background-color: rgba(247, 247, 247, 1);
   color: rgba(180, 180, 180, 1);
   float: inherit;
@@ -73,8 +76,7 @@ section .tagline {
   font-family: Helvetica Neue;
   font-size: 27px;
   font-weight: 100;
-  margin: 5px;
-  margin-top: 12%;
+  margin-top: 15%;
   text-align: center;
   text-decoration: overline;
   width: auto;
@@ -156,9 +158,9 @@ section .newborns p {
 }
 footer {
   border-radius: 3px;
-  background-color: rgba(70, 70, 70, 1);
+  background-color: none;
   margin: auto;
-  margin-top: 10px;
+  margin-top: 10%;
   padding: 20px;
   height: 20px;
   width: 50%;
@@ -207,19 +209,19 @@ footer {
   margin-bottom: 7px;
 }
 #test {
-border-radius: 3px;
-border-style: solid;
-border-width: 1px;
-border-color: black;
-display: block;
-font-family: Helvetica Neue;
-font-weight: 200;
-margin: auto;
-margin-top: 20px;
-padding: 2%;
-position: static;
-text-align: center;
-width: 70%;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  display: block;
+  font-family: Helvetica Neue;
+  font-weight: 200;
+  margin: auto;
+  margin-top: 20px;
+  padding: 2%;
+  position: static;
+  text-align: center;
+  width: 70%;
 }
 /* SMALL SCREENS, TABLETS, ETC. */
 
@@ -300,14 +302,13 @@ width: 70%;
   header .biocontact a {
     color: rgba(160, 160, 160, 1);
     font-size: 15px;
-    padding-top: 10px;
+    padding: 5% 0% 5% 0%;
   }
   header .biocontact li {
     color: rgba(120, 120, 120, 1);
     list-style: none;
     display: block;
-    padding-right: 10%;
-    margin: 0px;
+    margin-left: 40%;
   }
   section .tagline {
     font-size: 25%;
