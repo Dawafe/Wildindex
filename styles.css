@@ -174,7 +174,7 @@ footer {
   text-align: center;
   font-size: 10px;
 }
-.footer a {
+footer a {
   color: rgba(200, 200, 200, 1);
   font-family: Helvetica Neue;
   text-decoration: none;
@@ -239,15 +239,12 @@ footer {
   margin: 2% 0% 0% 0%;
 }
 #email {
-  color: rgba(130, 130, 130, 1);
-  font-family: 'Genos', sans-serif;
-  font-size: 35px;
+  color: rgba(120, 120, 120, 1);
+  font-size: 32px;
 }
 #cell {
   color: rgba(120, 120, 120, 1);
-  font-family: 'Genos', sans-serif;
-  font-size: 35px;
-  font-weight: 200;
+  font-size: 32px;
 }
 .socialmedia {
   color: rgba(170, 170, 170, 1);
