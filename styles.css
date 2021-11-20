@@ -225,15 +225,39 @@ footer {
 }
 /*CONTACT PAGE*/
 .contactinfo {
-  background-color: rgba(242, 242, 242, 1);
   display: block;
   margin: 17% 0% 0% 0%;
   text-align: center;
 }
 .contactul {
+  color: rgba(140, 140, 140, 1);
   font-family: 'Rajdhani', sans-serif;
   font-size: 40px;
   list-style: none;
+}
+.contactul li {
+  margin: 2% 0% 0% 0%;
+}
+#email {
+  color: rgba(130, 130, 130, 1);
+  font-family: 'Genos', sans-serif;
+  font-size: 35px;
+}
+#cell {
+  color: rgba(120, 120, 120, 1);
+  font-family: 'Genos', sans-serif;
+  font-size: 35px;
+  font-weight: 200;
+}
+.socialmedia {
+  color: rgba(170, 170, 170, 1);
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 30px;
+  margin-top: 7%;
+}
+.socialmedia div {
+  display: inline-block;
+  padding: 1% 2% 0% 2%;
 }
 /* SMALL SCREENS, TABLETS, ETC. */
 
