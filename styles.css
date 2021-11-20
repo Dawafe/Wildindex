@@ -223,6 +223,18 @@ footer {
   text-align: center;
   width: 70%;
 }
+/*CONTACT PAGE*/
+.contactinfo {
+  background-color: rgba(242, 242, 242, 1);
+  display: block;
+  margin: 17% 0% 0% 0%;
+  text-align: center;
+}
+.contactul {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 40px;
+  list-style: none;
+}
 /* SMALL SCREENS, TABLETS, ETC. */
 
 @media screen and (max-width: 1199px) {
