@@ -158,7 +158,7 @@ section .newborns p {
 }
 footer {
   border-radius: 3px;
-  background-color: none;
+  background: none;
   margin: auto;
   margin-top: 10%;
   padding: 20px;
@@ -256,8 +256,15 @@ footer a {
   display: inline-block;
   padding: 1% 2% 0% 2%;
 }
+/* PORTRAIT PAGE */
+.senior {
+  background-image: url("images/headshot2.jpeg");
+  background-size: 100%;
+  background-position: bottom;
+  width: 600px;
+  height: 700px;
+}
 /* SMALL SCREENS, TABLETS, ETC. */
-
 @media screen and (max-width: 1199px) {
   header .compname a {
     font-size: 30px;
@@ -319,8 +326,9 @@ footer a {
     margin: 10px;
     text-shadow: -1px 1px 0px rgba(242, 242, 242, 1), 1px 1px 0px rgba(242, 242, 242, 1), 1px -1px 0px rgba(242, 242, 242, 1), -1px -1px 0px rgba(242, 242, 242, 1);
   }
+  .contactinfo {
+    margin: 17% 10% 0% 10%;
 }
-
 /* SMART PHONES, SPLIT SCREENS, ETC. */
 
 @media screen and (max-width: 670px) {
@@ -411,6 +419,19 @@ footer a {
     width: 120px;
     margin-right: 2px;
     margin-bottom: 7px;
+  }
+  .contactul {
+    font-size: 20px;
+    margin-top: 30%;
+  }
+  #email {
+    font-size: 15px;
+  }
+  #cell {
+    font-size: 15px;
+  }
+  .socialmedia {
+    font-size: 17px;
   }
   footer {
     padding: 8px;
