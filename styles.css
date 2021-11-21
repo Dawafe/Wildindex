@@ -258,11 +258,36 @@ footer a {
 }
 /* PORTRAIT PAGE */
 .senior {
+  background-size: contain;
+}
+.senior p {
+  text-align: center;
+  font-size: 50px;
+}
+#facingright {
   background-image: url("images/headshot2.jpeg");
-  background-size: 100%;
-  background-position: bottom;
-  width: 600px;
-  height: 700px;
+  background-size: 110%;
+  display: inline-flex;
+  height: 40em;
+  margin: 0% 3% 0% 4.5%;
+  width: 25em;
+}
+#overshoulder {
+  background-image: url("images/headshot3.jpeg");
+  background-position: center;
+  background-size: 160%;
+  display: inline-flex;
+  height: 40em;
+  width: 25em;
+}
+#somedude {
+  background-image: url("images/headshot4.jpeg");
+  background-position: center;
+  background-size: 150%;
+  display: inline-flex;
+  height: 40em;
+  margin: 0% 4% 0% 3%;
+  width: 25em;
 }
 /* SMALL SCREENS, TABLETS, ETC. */
 @media screen and (max-width: 1199px) {
