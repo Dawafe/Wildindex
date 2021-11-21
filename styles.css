@@ -257,8 +257,27 @@ footer a {
   padding: 1% 2% 0% 2%;
 }
 /* PORTRAIT PAGE */
-.senior {
-  background-size: contain;
+.family p {
+  text-align: center;
+  font-size: 50px;
+}
+#onekid {
+  background-image: url("images/fam1.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+  height: 50em;
+  margin: 5% 3% 4% 3%;
+  width: auto;
+}
+#stillgood {
+
+}
+#toomany {
+
+}
+#dabois {
+
 }
 .senior p {
   text-align: center;
@@ -266,28 +285,29 @@ footer a {
 }
 #facingright {
   background-image: url("images/headshot2.jpeg");
+  background-repeat: no-repeat;
   background-size: 110%;
-  display: inline-flex;
+  display: inline-block;
   height: 40em;
   margin: 0% 3% 0% 4.5%;
-  width: 25em;
+  width: 28%;
 }
 #overshoulder {
   background-image: url("images/headshot3.jpeg");
-  background-position: center;
+  background-repeat: no-repeat;
   background-size: 160%;
-  display: inline-flex;
+  display: inline-block;
   height: 40em;
-  width: 25em;
+  width: 28%;
 }
 #somedude {
   background-image: url("images/headshot4.jpeg");
-  background-position: center;
+  background-repeat: no-repeat;
   background-size: 150%;
-  display: inline-flex;
+  display: inline-block;
   height: 40em;
   margin: 0% 4% 0% 3%;
-  width: 25em;
+  width: 28%;
 }
 /* SMALL SCREENS, TABLETS, ETC. */
 @media screen and (max-width: 1199px) {
