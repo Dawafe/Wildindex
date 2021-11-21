@@ -257,12 +257,57 @@ footer a {
   padding: 1% 2% 0% 2%;
 }
 /* PORTRAIT PAGE */
-.senior {
-  background-image: url("images/headshot2.jpeg");
+.family p {
+  text-align: center;
+  font-size: 50px;
+}
+#onekid {
+  background-image: url("images/fam1.jpeg");
+  background-repeat: no-repeat;
   background-size: 100%;
-  background-position: bottom;
-  width: 600px;
-  height: 700px;
+  display: block;
+  height: 50em;
+  margin: 5% 3% 4% 3%;
+  width: auto;
+}
+#stillgood {
+
+}
+#toomany {
+
+}
+#dabois {
+
+}
+.senior p {
+  text-align: center;
+  font-size: 50px;
+}
+#facingright {
+  background-image: url("images/headshot2.jpeg");
+  background-repeat: no-repeat;
+  background-size: 110%;
+  display: inline-block;
+  height: 40em;
+  margin: 0% 3% 0% 4.5%;
+  width: 28%;
+}
+#overshoulder {
+  background-image: url("images/headshot3.jpeg");
+  background-repeat: no-repeat;
+  background-size: 160%;
+  display: inline-block;
+  height: 40em;
+  width: 28%;
+}
+#somedude {
+  background-image: url("images/headshot4.jpeg");
+  background-repeat: no-repeat;
+  background-size: 150%;
+  display: inline-block;
+  height: 40em;
+  margin: 0% 4% 0% 3%;
+  width: 28%;
 }
 /* SMALL SCREENS, TABLETS, ETC. */
 @media screen and (max-width: 1199px) {
