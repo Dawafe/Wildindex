@@ -271,13 +271,40 @@ footer a {
   width: auto;
 }
 #stillgood {
-
+  background-image: url("images/fam2.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  float: left;
+  height: 50em;
+  margin: 5% 3% 4% 3%;
+  width: 20em;
+}
+#famtext {
+  font-size: 27px;
+  margin: 10% 5% 10% 5%;
+  text-align: center;
 }
 #toomany {
-
+  background-image: url("images/fam3.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+  height: 40em;
+  margin: 5% 3% 2% 15%;
+  width: 70%;
 }
 #dabois {
-
+  background-image: url("images/fam4.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+  height: 40em;
+  margin: 1% 3% 2% 15%;
+  width: 70%;
+}
+.senior {
+  width: auto;
+  height: 60em;
 }
 .senior p {
   text-align: center;
@@ -285,29 +312,96 @@ footer a {
 }
 #facingright {
   background-image: url("images/headshot2.jpeg");
+  background-position: bottom;
   background-repeat: no-repeat;
-  background-size: 110%;
+  background-size: 115%;
   display: inline-block;
-  height: 40em;
+  height: 35em;
   margin: 0% 3% 0% 4.5%;
   width: 28%;
 }
 #overshoulder {
   background-image: url("images/headshot3.jpeg");
+  background-position: bottom;
   background-repeat: no-repeat;
-  background-size: 160%;
+  background-size: 150%;
   display: inline-block;
-  height: 40em;
+  height: 35em;
   width: 28%;
 }
 #somedude {
   background-image: url("images/headshot4.jpeg");
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: 150%;
   display: inline-block;
-  height: 40em;
+  height: 35em;
   margin: 0% 4% 0% 3%;
   width: 28%;
+}
+@media screen and (max-width: 1210px) {
+  #facingright {
+    height: 30em;
+  }
+  #overshoulder {
+    height: 30em;
+  }
+  #somedude {
+    height: 30em;
+  }
+}
+@media screen and (max-width: 1025px) {
+  #facingright {
+    height: 25em;
+  }
+  #overshoulder {
+    height: 25em;
+  }
+  #somedude {
+    height: 25em;
+  }
+}
+@media screen and (max-width: 850px) {
+  #facingright {
+    height: 20em;
+  }
+  #overshoulder {
+    height: 20em;
+  }
+  #somedude {
+    height: 20em;
+  }
+}
+@media screen and (max-width: 680px) {
+  #facingright {
+    height: 15em;
+  }
+  #overshoulder {
+    height: 15em;
+  }
+  #somedude {
+    height: 15em;
+  }
+}
+@media screen and (max-width: 540px) {
+  #facingright {
+    background-position: center;
+    display: block;
+    margin: 0% 0% 1% 28%;
+    width: 45%;
+  }
+  #overshoulder {
+    background-position: center;
+    display: block;
+    margin: 0% 0% 1% 28%;
+    width: 45%;
+  }
+  #somedude {
+    background-position: center;
+    display: block;
+    margin: 0% 0% 1% 28%;
+    width: 45%;
+  }
 }
 /* SMALL SCREENS, TABLETS, ETC. */
 @media screen and (max-width: 1199px) {
