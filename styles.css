@@ -271,13 +271,36 @@ footer a {
   width: auto;
 }
 #stillgood {
-
+  background-image: url("images/fam2.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  float: left;
+  height: 50em;
+  margin: 5% 3% 4% 3%;
+  width: 20em;
+}
+#famtext {
+  font-size: 27px;
+  margin: 10% 5% 10% 5%;
+  text-align: center;
 }
 #toomany {
-
+  background-image: url("images/fam3.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+  height: 40em;
+  margin: 5% 3% 2% 15%;
+  width: 70%;
 }
 #dabois {
-
+  background-image: url("images/fam4.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+  height: 40em;
+  margin: 1% 3% 2% 15%;
+  width: 70%;
 }
 .senior {
   width: auto;
