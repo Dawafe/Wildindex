@@ -160,7 +160,7 @@ footer {
   border-radius: 3px;
   background: none;
   margin: auto;
-  margin-top: 10%;
+  margin-top: 40%;
   padding: 20px;
   height: 20px;
   width: 50%;
@@ -177,9 +177,9 @@ footer {
 footer a {
   color: rgba(200, 200, 200, 1);
   font-family: Helvetica Neue;
+  font-size: 14px;
   text-decoration: none;
   text-align: center;
-  font-size: 14px;
 }
 
 /* BIO PAGE */
@@ -260,6 +260,7 @@ footer a {
 .family p {
   text-align: center;
   font-size: 50px;
+  margin-top: 20%;
 }
 #onekid {
   background-image: url("images/fam1.jpeg");
@@ -280,7 +281,7 @@ footer a {
   width: 20em;
 }
 #famtext {
-  font-size: 27px;
+  font-size: 26px;
   margin: 10% 5% 10% 5%;
   text-align: center;
 }
@@ -304,11 +305,11 @@ footer a {
 }
 .senior {
   width: auto;
-  height: 60em;
 }
 .senior p {
   text-align: center;
   font-size: 50px;
+  margin-top: 20%;
 }
 #facingright {
   background-image: url("images/headshot2.jpeg");
@@ -338,6 +339,59 @@ footer a {
   height: 35em;
   margin: 0% 4% 0% 3%;
   width: 28%;
+}
+#seniortext {
+    font-size: 26px;
+    margin: 5% 8% 4% 8%;
+    text-align: center;
+}
+#sideways {
+  background-image: url("images/headshot6.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+  height: 50em;
+  margin: 2% 6% 4% 6%;
+  width: auto;
+}
+.headshot p {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 20%;
+}
+#glasses {
+  background-image: url("images/headshot7.jpeg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 115%;
+  display: inline-block;
+  height: 35em;
+  margin: 0% 7% 0% 8%;
+  width: 35%;
+}
+#facetat {
+  background-image: url("images/headshot8.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 150%;
+  display: inline-block;
+  height: 35em;
+  margin: 0% 8% 0% 6%;
+  width: 35%;
+}
+#dashing {
+  background-image: url("images/headshot5.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  float: left;
+  height: 50em;
+  margin: 20% 5% 0% 8%;
+  width: 30em;
+}
+#headshottext {
+  font-size: 26px;
+  margin: 25% 12% 20% 0%;
+  text-align: center;
 }
 @media screen and (max-width: 1210px) {
   #facingright {
