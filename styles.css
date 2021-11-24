@@ -187,12 +187,14 @@ footer a {
   border-radius: 3px;
   border-style: solid;
   border-width: 1px;
-  border-color: black;
+  border-color: rgba(220, 220, 220, 1);
+  color: rgba(130, 130, 130, 1);
   display: inherit;
-  font-family: Helvetica Neue;
+  font-family: 'Comfortaa', cursive;
+  font-size: 18px;
   font-weight: 200;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 80px;
   padding: 2%;
   position: static;
   text-align: center;
@@ -202,6 +204,7 @@ footer a {
   background-image: url("images/image12.jpeg");
   background-size: contain;
   background-repeat: no-repeat;
+  border-radius: 2px;
   float: right;
   height: 150px;
   width: 350px;
